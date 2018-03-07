@@ -2,7 +2,7 @@
 
 `models/emails.js` has `mongoose.connect('mongodb://localhost/momentum_server');` on line 3
 
-change that to point to a remove mongodb instance. 
+change that to point to a remote mongodb instance. 
 
 #### Email endpoint  
 
