@@ -16,6 +16,11 @@ p {
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  /* clip: rect(2px, 1918px, 1234px, 2px); */
+  background-image: url(/img/background.jpg);
+  background-repeat: no-repeat, no-repeat;
+  background-size: cover;
+  background-position: center top;
 }
 .container {
   max-width: 800px;
@@ -24,11 +29,6 @@ p {
   .container {
     padding: 0 32px 0 32px;
   }
-}
-#bgimg {
-  position: absolute;
-  filter: blur(2px);
-  clip: rect(2px, 1918px, 1234px, 2px);
 }
 .overlay {
   min-height: 750px;

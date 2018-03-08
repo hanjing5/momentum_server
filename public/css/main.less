@@ -21,6 +21,13 @@ p {
   justify-content: center;
   align-items: center;
   overflow: hidden;
+
+  //filter: blur(2px);
+  /* clip: rect(2px, 1918px, 1234px, 2px); */
+  background-image: url(/img/background.jpg);
+  background-repeat: no-repeat, no-repeat;
+  background-size: cover;
+  background-position: center top;
 }
 
 .container {
@@ -28,12 +35,6 @@ p {
     padding: 0 32px 0 32px;
   }
   max-width: 800px;
-}
-
-#bgimg {
-  position: absolute;
-  filter: blur(2px);
-  clip: rect(2px, 1918px, 1234px, 2px);
 }
 
 .overlay {
