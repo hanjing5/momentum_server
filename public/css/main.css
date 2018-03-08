@@ -1,0 +1,93 @@
+p {
+  font-size: 14pt;
+}
+.momentum {
+  margin-top: 20%;
+}
+.content {
+  margin-top: 20%;
+}
+#background {
+  min-height: 750px;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.container {
+  max-width: 800px;
+}
+@media (min-width: 500px) {
+  .container {
+    padding: 0 32px 0 32px;
+  }
+}
+#bgimg {
+  position: absolute;
+  filter: blur(2px);
+  clip: rect(2px, 1918px, 1234px, 2px);
+}
+.overlay {
+  min-height: 750px;
+  position: absolute;
+  background-color: white;
+  margin-left: 10%;
+  height: 90%;
+  width: 80%;
+  margin-top: 2%;
+  opacity: 0.8;
+}
+@media (max-height: 830px) {
+  .overlay {
+    margin-top: 0;
+    height: 100%;
+  }
+}
+@media (max-width: 524px) {
+  .overlay {
+    margin-left: 0;
+    height: 100%;
+    width: 100%;
+    margin-top: 0;
+  }
+}
+@media (min-width: 1300px) {
+  .overlay {
+    margin-left: 20%;
+    width: 60%;
+  }
+}
+.form-container {
+  padding-top: 48px;
+  max-width: 500px;
+  display: block;
+  padding-right: auto;
+  margin: 0 auto;
+}
+#narrative {
+  text-align: justify;
+}
+.materialInput {
+  border: 0px !important;
+  background: transparent !important;
+  outline: 0px !important;
+  border-bottom: 1px solid black !important;
+  border-radius: 0px !important;
+  width: 95%;
+  padding: 0 !important;
+  height: 100% !important;
+}
+.lighter {
+  background-color: #49b8da !important;
+  border-color: #49b8da !important;
+}
+.righttext {
+  padding-top: 24px;
+  text-align: right;
+}
+form {
+  margin-bottom: 0;
+}
