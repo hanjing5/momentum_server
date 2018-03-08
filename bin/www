@@ -8,6 +8,9 @@ var app = require('../app');
 var debug = require('debug')('momentum-server:server');
 var http = require('http');
 
+var mongoose = require('mongoose');
+mongoose.connect(process.env.MONGOLAB_URI || 'mongodb://localhost/momentum');
+
 /**
  * Get port from environment and store in Express.
  */

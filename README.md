@@ -1,14 +1,14 @@
 #### Database
 
-`models/emails.js` has `mongoose.connect('mongodb://localhost/momentum_server');` on line 3
+`bin/www.js` has `mongoose.connect('mongodb://localhost/momentum');` on line 12
 
 change that to point to a remote mongodb instance. 
 
 #### Email endpoint  
 
-`POST /emails` with payload 
+`POST /email` with payload 
 
-`{"email":"<email>"}`
+`{"email":"<email>","data" }`
 
 install dependency is `npm install -d`
 

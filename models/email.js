@@ -5,7 +5,8 @@ var Schema = mongoose.Schema;
 
 // create a schema
 var emailSchema = new Schema({
-  email: String,
+    email: {type: String, required: true},
+    message: String
 });
 
 

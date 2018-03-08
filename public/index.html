@@ -46,12 +46,13 @@
 <div class="row">
     <div class="form-container">
         <h4>Stay one step ahead!</h4>
-        <form action="#">
+        <form action="/email" method="POST">
             <label for="message">How can we help your company with financial scenario analysis?</label>
-            <input class="u-full-width materialInput" placeholder="Tell us how we can help you!" id="message"/>
+            <input class="u-full-width materialInput" placeholder="Tell us how we can help you!" id="message"
+                   name="message" required/>
             <label for="emailInput">Your email:</label>
             <input class="u-full-width materialInput" type="email" placeholder="test@mailbox.com"
-                   id="emailInput">
+                   id="emailInput" name="email" required>
             <input class="button-primary lighter" type="submit" value="Submit">
         </form>
     </div>
