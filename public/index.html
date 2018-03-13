@@ -35,36 +35,40 @@
     </div>
     <div class="row">
         <div class="sixteen columns lefttext">
-        <p id="narrative">Financial scenario analysis is complicated. Momentum is a platform that empowers early-stage
-            startups to make data-driven decisions by aggregating financial data. We help you easily analyze a larger
-            number of scenarios to test your assumptions, while making it simpler to share that information with key
-            stakeholders.</p>
+            <p id="narrative">Financial forecasting is complicated. Momentum is a powerful scenario analysis tool that
+                empowers startups to make more informed decisions. We make it easier to analyze diverse ranges of
+                scenarios to refine your business assumptions.
+            </p>
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="form-container">
+            <h4>Stay one step ahead!</h4>
+            <form action="/email" method="POST">
+                <label for="message">How can we help your company with financial scenario analysis?</label>
+                <input class="u-full-width materialInput" placeholder="Tell us how we can help you!" id="message"
+                       name="message" required/>
+                <label for="emailInput">Your email:</label>
+                <input class="u-full-width materialInput" type="email" placeholder="test@mailbox.com"
+                       id="emailInput" name="email" required>
+                <input class="button-primary lighter" type="submit" value="Submit">
+            </form>
+        </div>
     </div>
 
-</div>
-<div class="row">
-    <div class="form-container">
-        <h4>Stay one step ahead!</h4>
-        <form action="/email" method="POST">
-            <label for="message">How can we help your company with financial scenario analysis?</label>
-            <input class="u-full-width materialInput" placeholder="Tell us how we can help you!" id="message"
-                   name="message" required/>
-            <label for="emailInput">Your email:</label>
-            <input class="u-full-width materialInput" type="email" placeholder="test@mailbox.com"
-                   id="emailInput" name="email" required>
-            <input class="button-primary lighter" type="submit" value="Submit">
-        </form>
-    </div>
-</div>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115368881-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115368881-1"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+        function gtag() {
+            dataLayer.push(arguments);
+        }
 
-    gtag('config', 'UA-115368881-1');
-</script>
+        gtag('js', new Date());
+
+        gtag('config', 'UA-115368881-1');
+    </script>
 
 
 </body>
